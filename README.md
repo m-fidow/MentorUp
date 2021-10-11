@@ -1,4 +1,4 @@
-# Welcome to MentorUp, team H's final project for SOC Bootcamp 6 
+# Welcome to [MentorUp](mentorup.netlify.app), team H's final project for SOC Bootcamp 6 
 
 MentorUp is a collective work created by the Dreamer team AKA Muna Fidow, Clarisse Leduc and Toby Smith.
 
