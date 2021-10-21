@@ -21,8 +21,6 @@ const useStyles = makeStyles({
   },
   media: {
     maxWidth: "90%",
-    // border: "1px solid black",
-    // margin: "6",
   },
 });
 //

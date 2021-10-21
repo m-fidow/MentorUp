@@ -14,8 +14,6 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   mainLayout: {
-    // flexDirection: "column",
-    // backgroundColor: "green",
     padding: "16px",
   },
   h1Override: {
@@ -43,7 +41,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   "@global": {
-    // You should target [class*="MuiButton-root"] instead if you nest themes.
     ".MuiTypography-h1": {
       [theme.breakpoints.up("xs")]: {
         fontSize: "2.375rem",
@@ -65,7 +62,6 @@ function HomePage() {
   return (
     <main style={{ padding: "16px", minHeight: "100vh" }}>
       <section>
-        {/* container className={classes.mainLayout} spacing={2} */}
         <Box display="flex" flexWrap="wrap" align="left">
           <Grid container xs={12} sm={12} md={7} className={classes.heroText}>
             <Grid item container>

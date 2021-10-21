@@ -2,16 +2,13 @@ import React from "react";
 import { Grid, MenuItem, TextField, Typography, Box } from "@material-ui/core";
 import uk from "./../../assets/flags/united-kingdom.svg";
 import uae from "./../../assets/flags/united-arab-emirates.svg";
-// import bangladesh from "./../assets/flags/bangladesh.svg"
 import france from "./../../assets/flags/france.svg";
 import germany from "./../../assets/flags/germany.svg";
 import india from "./../../assets/flags/india.svg";
 import italy from "./../../assets/flags/italy.svg";
 import lithuania from "./../../assets/flags/lithuania.svg";
 import poland from "./../../assets/flags/poland.svg";
-// import portugal from "./../../assets/flags/portugal.svg";
 import pakistan from "./../../assets/flags/pakistan.svg";
-// import romania from "./../../assets/flags/romania.svg";
 import somalia from "./../../assets/flags/somalia.svg";
 import spain from "./../../assets/flags/spain.svg";
 import philippines from "./../../assets/flags/philippines.svg";
@@ -19,7 +16,6 @@ import turkey from "./../../assets/flags/turkey.svg";
 const languages = [
   { language: "English", flag: uk },
   { language: "Arabic", flag: uae },
-  // { language: "Bengali", flag: bangladesh },
   { language: "French", flag: france },
   { language: "German", flag: germany },
   { language: "Gujurati", flag: india },
@@ -27,9 +23,7 @@ const languages = [
   { language: "Italian", flag: italy },
   { language: "Lithuanian", flag: lithuania },
   { language: "Polish", flag: poland },
-  // { language: "Portuguese", flag: portugal },
   { language: "Punjabi", flag: pakistan },
-  // { language: "Romanian", flag: romania },
   { language: "Somali", flag: somalia },
   { language: "Spanish", flag: spain },
   { language: "Tagalog/Filipino", flag: philippines },

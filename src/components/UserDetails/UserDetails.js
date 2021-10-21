@@ -23,7 +23,6 @@ import Language from "../WIzard/Language";
 const useStyles = makeStyles((theme) => ({
   root: {
     marginBottom: theme.spacing(2),
-    // width: "30ch",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -45,8 +44,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   mainLayout: {
-    // flexDirection: "column",
-    // backgroundColor: "green",
     padding: "16px",
   },
   h1Override: {

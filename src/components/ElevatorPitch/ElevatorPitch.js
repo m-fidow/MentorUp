@@ -7,7 +7,6 @@ import {
   Grid,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
-import { classes } from "istanbul-lib-coverage";
 const useStyles = makeStyles({
   field: {
     marginTop: 20,
@@ -29,14 +28,7 @@ function ElevatorPitch() {
       justifyContent="center"
       alignItems="center"
     >
-      <Grid
-        item
-        container
-        direction="column"
-        spacing={4}
-        // justifyContent="center"
-        // alignItems="space-between"
-      >
+      <Grid item container direction="column" spacing={4}>
         <Grid item>
           <Typography variant="h5" align="center" gutterBottom>
             Elevator Pitch

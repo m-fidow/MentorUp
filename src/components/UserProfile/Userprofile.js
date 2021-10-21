@@ -46,8 +46,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   mainLayout: {
-    // flexDirection: "column",
-    // backgroundColor: "green",
     padding: "16px",
   },
   h1Override: {
@@ -87,7 +85,7 @@ function UserProfile() {
   const [existingFirebaseId, setExistingFirebaseId] = useState("");
   const [showUpdated, setShowUpdated] = useState(false);
   const [avatar, setAvatar] = useState(newAvatar());
-  const [activeSteps, setActiveSteps] = useState(0);
+
   const [username, setUsername] = useState(
     usernameGen
       .generateUsername(Math.floor(Math.random() * 4 + 6), false)
@@ -182,26 +180,6 @@ function UserProfile() {
       </p>
     );
   }
-
-  const getSteps = () => {
-    return [
-      "UsernameAvatar",
-      "MentorMentee",
-      "Subject",
-      "BusinessStage",
-      "Industry",
-      "BSL",
-      "Language",
-    ];
-  };
-  const steps = getSteps();
-  const handleNext = () => {
-    setActiveSteps((nextStep) => nextStep + 1);
-  };
-  //Navigates to the previous page
-  const handleBack = () => {
-    setActiveSteps((previousStep) => previousStep - 1);
-  };
 
   return (
     <Box mt={5} p={2}>

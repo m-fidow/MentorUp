@@ -37,14 +37,9 @@ const useStyles = makeStyles((theme) => ({
     minHeight: "400px",
   },
   mainLayout: {
-    // flexDirection: "column",
-    // backgroundColor: "green",
     padding: "16px",
   },
-  // h1Override: {
-  //   fontSize: "1.875rem",
-  //   fontWeight: "medium",
-  // },
+
   textField: {
     [theme.breakpoints.down("xs")]: {
       maxWidth: "376px",
@@ -57,17 +52,6 @@ const useStyles = makeStyles((theme) => ({
     width: "150px",
     height: "150px",
   },
-  // "@global": {
-  //   // You should target [class*="MuiButton-root"] instead if you nest themes.
-  //   ".MuiTypography-h1": {
-  //     [theme.breakpoints.up("xs")]: {
-  //       fontSize: "2.375rem",
-  //     },
-  //     [theme.breakpoints.up("sm")]: {
-  //       fontSize: "2.9167rem",
-  //     },
-  //   },
-  // },
 }));
 
 function ContactForm() {
@@ -136,7 +120,6 @@ function ContactForm() {
       <div>
         <Paper className={classes.paper}>
           <Grid>
-            {/* <Typography variant="h1">About your mentor</Typography> */}
             <Box
               display="flex"
               flexDirection="column"
@@ -205,9 +188,6 @@ function ContactForm() {
             style={{
               margin: "0 auto",
             }}
-            // xs={12}
-            // sm={12}
-            // md={6}
             direction="column"
             justifyContent="center"
             alignItems="center"
@@ -216,7 +196,6 @@ function ContactForm() {
               required
               id="outlined-multiline-static"
               label="Message (required)"
-              // style={{ width: "80vw" }}
               className={classes.textField}
               fullWidth
               multiline

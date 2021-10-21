@@ -11,10 +11,7 @@ function Footer() {
   return (
     <footer
       style={{
-        // position: "absolute",
         width: "100%",
-        // marginTop: "auto",
-        // bottom: 0,
       }}
     >
       <Box>
