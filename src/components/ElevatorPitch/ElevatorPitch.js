@@ -1,11 +1,10 @@
 import React from "react";
-import {
-  Typography,
-  FormControl,
-  TextField,
-  Button,
-  Grid,
-} from "@material-ui/core";
+import Typography from "@material-ui/core/Typography";
+import FormControl from "@material-ui/core/FormControl";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+
+import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   field: {

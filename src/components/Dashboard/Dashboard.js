@@ -1,5 +1,9 @@
 import React from "react";
-import { Typography, Button, Grid, Paper, Box } from "@material-ui/core";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
+import Box from "@material-ui/core/Box";
 import { Link } from "react-router-dom";
 import "firebase/firestore";
 
