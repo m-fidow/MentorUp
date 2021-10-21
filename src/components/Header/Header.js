@@ -1,4 +1,5 @@
-import { AppBar, Toolbar } from "@material-ui/core";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
 import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
